@@ -7,7 +7,7 @@ import Button from '../Button'
 const Banner = () => {
   return (
     <>
-    <div className="bg-blue-200 py-[100px]">
+    <div className="bg-white py-[100px]">
        <Container>
        <Flex className={'justify-between'}>
    <div className="">

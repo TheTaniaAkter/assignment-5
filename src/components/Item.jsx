@@ -14,7 +14,7 @@ console.log(items);
       <div>
        {/* <h3> Available Players</h3> */}
       
-      </div>
+      </div >
       <AvailableItems item={items}/>
   
     </div>

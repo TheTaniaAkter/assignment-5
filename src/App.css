@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@plugin "daisyui";
 
 @theme {
   --font-jakartaSans: "Plus Jakarta Sans", sans-serif; 

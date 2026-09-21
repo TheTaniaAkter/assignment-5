@@ -18,7 +18,7 @@ compare them side by side, and put together the stack that fits your
 next project.</p>
  <div className="mt-4 flex gap-x-4 ">
      <Button className={'px-5 py-3 rounded-2xl  bg-gradient-to-r from-[#F97316] to-[#EC4899] text-white font-semibold font-interSans text-[14px]'} btnText={"Explore Technologies"}/>
-     <Button className={'px-12 py-3 rounded-2xl text-white bg-gradient-to-r from-[#F97316] to-[#EC4899]'} btnText={'Learn More'}/>
+     <Button className={'px-12 py-3 rounded-2xl text-[#374151] bg-transparent  outline-1'} btnText={'Learn More'}/>
  </div>
    </div>
    <div className="w[100%]">

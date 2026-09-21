@@ -25,8 +25,8 @@ const Header = () => {
    </div>
     <div className="">
       <div className="flex gap-3">
-        <Button className={"px-4 py-2 rounded-3xl"} btnText={"Sign In"}/>
-        <Button className={"px-4 py-2 rounded-3xl"} btnText={"Sign Up"}/>
+        <Button className={"px-4 py-2 rounded-3xl text-white"} btnText={"Sign In"}/>
+        <Button className={"px-4 py-2 rounded-3xl text-white"} btnText={"Sign Up"}/>
       </div>
     </div>
 </Flex>

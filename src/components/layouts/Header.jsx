@@ -15,7 +15,7 @@ const Header = () => {
     <Image imgSrc={logo}/>
    </div>
    <div className="">
-    <ul className='flex gap-x-4 font-jakartaSan text-cc font-medium text-[14px]'>
+    <ul className='flex gap-x-4 font-jakartaSan text-cc font-medium text-[14px] '>
     <li>Home</li>
      <li>Technologies</li>
       <li>Projects</li>

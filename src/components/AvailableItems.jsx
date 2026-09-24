@@ -25,7 +25,7 @@ return <div className="card bg-base-100 w-96 shadow-sm  ">
         : item.badge === "Fast"
         ? "bg-orange-50 text-orange-500"
         : item.badge === "SSR / Edge"
-        ? "bg-purple-50 text-purple-500"
+        ? "bg-orange-50 text-orange-500"
         : item.badge === "Robust"
         ? "bg-blue-50 text-blue-500"
         : item.badge === "Standard"

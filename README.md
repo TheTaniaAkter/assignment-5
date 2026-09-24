@@ -28,6 +28,24 @@ The main difference between props and state in React boils down to ownership and
 The useState hook is a React function.It allows components to "remember" values that lets you add local state to functional components and updates the user interface automatically whenever those values change.
 
 
+HOW DO YOU PASS DATA FROM PARENT COMPONENT TO CHILD COMPONENT AND HOW DOES A CHILD SEN SOMTHING BACK TO THE PARENT-
+In React, data usually moves between parent and child in two ways:
+1/ Parent → Child: Props
+The parent sends data to the child using props.
+function Parent() {
+  const name = "Tania";
+
+  return <Child name={name} />;
+}
+
+function Child({ name }) {
+  return <h1>Hello {name}</h1>;
+}
+
+2/A child doesn't directly send data upward. Instead, the parent passes a function to the child, and the child calls that function with the data.
+
+
+
 
 
 
